@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -41,6 +41,8 @@ class Program
     {
         ImageMatrix img = new ImageMatrix();
         string[] temp = img.Dark().Split(' ');
+        Console.WriteLine($"A legsötétebb pont RGB összege: {Convert.ToInt32(temp[0])+ Convert.ToInt32(temp[1])+ Convert.ToInt32(temp[2])}");
+        Console.WriteLine("A legsötétebb pixelek színe:");
         for(int i = 2; i < temp.Length; i += 3)
         {
             Console.WriteLine($"RGB ({temp[i - 2]}, {temp[i - 1]},{temp[i]})");
