@@ -1,0 +1,14 @@
+C:\Users\peres\Desktop\C#\kraterek\kraterek\bin\Debug\net8.0\kraterek.exe
+C:\Users\peres\Desktop\C#\kraterek\kraterek\bin\Debug\net8.0\kraterek.deps.json
+C:\Users\peres\Desktop\C#\kraterek\kraterek\bin\Debug\net8.0\kraterek.runtimeconfig.json
+C:\Users\peres\Desktop\C#\kraterek\kraterek\bin\Debug\net8.0\kraterek.dll
+C:\Users\peres\Desktop\C#\kraterek\kraterek\bin\Debug\net8.0\kraterek.pdb
+C:\Users\peres\Desktop\C#\kraterek\kraterek\obj\Debug\net8.0\kraterek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\peres\Desktop\C#\kraterek\kraterek\obj\Debug\net8.0\kraterek.AssemblyInfoInputs.cache
+C:\Users\peres\Desktop\C#\kraterek\kraterek\obj\Debug\net8.0\kraterek.AssemblyInfo.cs
+C:\Users\peres\Desktop\C#\kraterek\kraterek\obj\Debug\net8.0\kraterek.csproj.CoreCompileInputs.cache
+C:\Users\peres\Desktop\C#\kraterek\kraterek\obj\Debug\net8.0\kraterek.dll
+C:\Users\peres\Desktop\C#\kraterek\kraterek\obj\Debug\net8.0\refint\kraterek.dll
+C:\Users\peres\Desktop\C#\kraterek\kraterek\obj\Debug\net8.0\kraterek.pdb
+C:\Users\peres\Desktop\C#\kraterek\kraterek\obj\Debug\net8.0\kraterek.genruntimeconfig.cache
+C:\Users\peres\Desktop\C#\kraterek\kraterek\obj\Debug\net8.0\ref\kraterek.dll
