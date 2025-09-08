@@ -1,4 +1,4 @@
-## [Könyv](https://github.com/Zufhi/Tanulo-csoport-DDRAB/tree/K%C3%B6nyv)
+## [Könyvkiadás](https://github.com/Zufhi/Tanulo-csoport-DDRAB/tree/K%C3%B6nyv)
 + Berci - Egész
 
 ## [Kráterek](https://github.com/Zufhi/Tanulo-csoport-DDRAB/tree/Kr%C3%A1terek)
