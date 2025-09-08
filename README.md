@@ -1,7 +1,7 @@
-# [Könyv](https://github.com/Zufhi/Tanulo-csoport-DDRAB/tree/K%C3%B6nyv)
+## [Könyv](https://github.com/Zufhi/Tanulo-csoport-DDRAB/tree/K%C3%B6nyv)
 + Berci - Egész
 
-# [Kráterek](https://github.com/Zufhi/Tanulo-csoport-DDRAB/tree/Kr%C3%A1terek)
+### [Kráterek](https://github.com/Zufhi/Tanulo-csoport-DDRAB/tree/Kr%C3%A1terek)
 + Dávid - Egész
 
 # [Létra](https://github.com/Zufhi/Tanulo-csoport-DDRAB/tree/L%C3%A9tra)
