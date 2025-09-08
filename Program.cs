@@ -68,7 +68,8 @@ namespace konyvek
             //5. feladat
             Console.WriteLine("5. feladat:");
             Console.WriteLine("Év\tMagyar kiadás\tMagyar példányszám\tKülföldi kiadás\tKülföldi példányszám");
-            
+            List<int> ints = new List<int>();
+            int eev = 0;
             foreach (var item in list)
             {
                 int ev = 0;
@@ -78,23 +79,47 @@ namespace konyvek
                 int kp = 0;
                 foreach (var s in list)
                 {
-                    ev = s.Ev;
-                    if (s.Ev == item.Ev)
+                    if (!ints.Contains(item.Ev))
                     {
-                        if (s.Eredete == "ma")
+                        eev = s.Ev;
+                        ev = item.Ev;
+                        
+                        if (s.Ev == item.Ev)
                         {
-                            mk++;
-                            mp += s.Peldany;
-                        }
-                        else
-                        {
-                            kk++;
-                            kp += s.Peldany;
+                            if (s.Eredete == "ma")
+                            {
+                                mk++;
+                                mp += s.Peldany;
+                            }
+                            else
+                            {
+                                kk++;
+                                kp += s.Peldany;
+                            }
                         }
                     }
+                    else
+                    {
+                        
+
+                        break;
+                    }
+
+
                 }
-                Console.WriteLine($"{ev}\t{mk}\t{mp}\t{kk}\t{kp}");
+                ints.Add(ev);
+                if (ev != 0) {
+                    Console.WriteLine($"{ev}\t{mk}\t{mp}\t{kk}\t{kp}");
+                }
+                
+
+                
+                
+                
+                
+
             }
+            
         }
     }
 }
