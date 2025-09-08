@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Runtime.InteropServices;
+using System.CodeDom.Compiler;
 
 namespace konyvek
 {
@@ -67,6 +69,8 @@ namespace konyvek
             }
             //5. feladat
             Console.WriteLine("5. feladat:");
+            StreamWriter html = new StreamWriter("tabla.html");
+            html.WriteLine("<table>\r\n<tr><th>Év</th><th>Magyar kiadás</th><th>Magyar példányszám</th><th>Külföldi\r\nkiadás</th><th>Külföldi példányszám</th></tr>");
             Console.WriteLine("Év\tMagyar kiadás\tMagyar példányszám\tKülföldi kiadás\tKülföldi példányszám");
             List<int> ints = new List<int>();
             int eev = 0;
@@ -109,17 +113,32 @@ namespace konyvek
                 }
                 ints.Add(ev);
                 if (ev != 0) {
-                    Console.WriteLine($"{ev}\t{mk}\t{mp}\t{kk}\t{kp}");
+                    Console.WriteLine($"{ev}\t\t{mk}\t\t{mp}\t\t{kk}\t\t{kp}");
+                    html.WriteLine($"<tr><td>{ev}</td><td>{mk}</td><td>{mp}</td><td>{kk}</td><td>{kp}</td></tr>");
                 }
-                
-
-                
-                
-                
-                
-
             }
-            
+            html.WriteLine("</table>");
+            html.Close();
+
+            //6. feladat
+            Console.WriteLine("6. feladat:\nLegalább kétszer, nagyobb példányszámban újra kiadott könyvek:");
+            foreach (var item in list)
+            {
+                int kiadas = 0;
+                string nev = item.Leiras;
+                int peldanyszam = item.Peldany;
+                foreach (var s in list)
+                {
+                    if (nev == s.Leiras)
+                    {
+                        kiadas++;
+                        if ()
+                        {
+
+                        }
+                    }
+                }
+            }
         }
     }
 }
