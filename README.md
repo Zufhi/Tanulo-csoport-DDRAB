@@ -1,14 +1,14 @@
 ## [Könyvkiadás](https://github.com/Zufhi/Tanulo-csoport-DDRAB/tree/K%C3%B6nyv)
-+ AAA
++ ABC
 
 ## [Kráterek](https://github.com/Zufhi/Tanulo-csoport-DDRAB/tree/Kr%C3%A1terek)
-+ AAA
++ ABC
 
 ## [Létra](https://github.com/Zufhi/Tanulo-csoport-DDRAB/tree/L%C3%A9tra)
-+ AAA
++ ABC
 
 ## [RGB Színek](https://github.com/Zufhi/Tanulo-csoport-DDRAB/tree/RGB-szinek)
-+ AAA
++ ABC
 
 ## [Rendelések](https://github.com/Zufhi/Tanulo-csoport-DDRAB/tree/Rendel%C3%A9sek)
-+ AAA
++ ABC
