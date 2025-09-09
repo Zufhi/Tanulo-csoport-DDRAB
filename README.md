@@ -1,14 +1,16 @@
 ## [Könyvkiadás](https://github.com/Zufhi/Tanulo-csoport-DDRAB/tree/K%C3%B6nyv)
-+ ABC
++ Berci/Ruben - Egész
 
 ## [Kráterek](https://github.com/Zufhi/Tanulo-csoport-DDRAB/tree/Kr%C3%A1terek)
-+ ABC
++ Dávid - Egész
 
 ## [Létra](https://github.com/Zufhi/Tanulo-csoport-DDRAB/tree/L%C3%A9tra)
-+ ABC
++ Ruben/Ádám - Kód
++ Dávid - Class
 
 ## [RGB Színek](https://github.com/Zufhi/Tanulo-csoport-DDRAB/tree/RGB-szinek)
-+ ABC
++ Dani/Berci - Egész
 
 ## [Rendelések](https://github.com/Zufhi/Tanulo-csoport-DDRAB/tree/Rendel%C3%A9sek)
-+ ABC
++ Ádám - Kód
++ Dávid- Class + Beolvasás
