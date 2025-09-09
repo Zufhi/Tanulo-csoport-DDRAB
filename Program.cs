@@ -122,21 +122,37 @@ namespace konyvek
 
             //6. feladat
             Console.WriteLine("6. feladat:\nLegalább kétszer, nagyobb példányszámban újra kiadott könyvek:");
+            List<string> cimre = new List<string>();
             foreach (var item in list)
             {
+                if (!cimre.Contains(item.Leiras))
+                {
+                    cimre.Add(item.Leiras);
+                }
+            }
+            foreach (var item in cimre)
+            {
                 int kiadas = 0;
-                string nev = item.Leiras;
-                int peldanyszam = item.Peldany;
+                int p1 = 0;
+
                 foreach (var s in list)
                 {
-                    if (nev == s.Leiras)
-                    {
-                        kiadas++;
-                        if ()
-                        {
 
+                    if (item == s.Leiras)
+                    {
+                        if (p1 == 0)
+                        {
+                            p1 = s.Peldany;
+                        } 
+                        else if (p1 < s.Peldany)
+                        {
+                            kiadas++;
                         }
+                        
                     }
+                }
+                if (kiadas >= 2) {
+                    Console.WriteLine($"{item}");
                 }
             }
         }

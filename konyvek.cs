@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace konyvek
 {
-    public class konyvek
+    internal class konyvek
     {
         public int Ev {  get; set; }
         public int NE { get; set; }
@@ -24,4 +24,3 @@ namespace konyvek
         }
     }
 }
-
