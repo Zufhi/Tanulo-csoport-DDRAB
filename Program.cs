@@ -44,6 +44,12 @@ namespace Rendelések
                     mennySz.Add(int.Parse(temp[3]));
                 }
             }
+
+            if (Msor != null)
+            {
+                rendelesek t = new rendelesek(Msor[1], int.Parse(Msor[2]), Msor[3], cikkSz, mennySz);
+                RendelesekLista.Add(t);
+            }
             rendelesReader.Close();
 
             /*----------------------------------------------------------------------------------------------------*/
@@ -66,27 +72,94 @@ namespace Rendelések
             /*----------------------------------------------------------------------------------------------------*/
 
 
+            // Rendelések feldolgozása
+            List<string> Kiiras = new List<string>();
+            bool teljesitheto;
+            int osszAr;
+
+            Dictionary<string, int> rendLista = new Dictionary<string, int>();
+            Dictionary<string, int> beszerzLista = new Dictionary<string, int>();
 
 
-            foreach (var item in RendelesekLista) 
+            foreach (var Rendelesitem in RendelesekLista)
             {
+                osszAr = 0;
+                teljesitheto = true;
+                rendLista.Clear();
 
-                Console.WriteLine($"{item.datum} {item.rendelesSzam} {item.email}");
-                for (int i = 0; i < (item.mennyiseg.Count); i++)
+                for (int i = 0; i < Rendelesitem.mennyiseg.Count(); i++) 
                 {
-                    Console.WriteLine($"{item.cikkSzam[i]}\t{item.mennyiseg[i]} db");
+                    foreach (var RaktarItem in RaktarLista) 
+                    {
+                        if (Rendelesitem.cikkSzam[i] == RaktarItem.cikkSzam)
+                        {
+                            if (Rendelesitem.mennyiseg[i] <= RaktarItem.mennyiseg)
+                            {
+                                if (!rendLista.ContainsKey(Rendelesitem.cikkSzam[i]))
+                                {
+                                    rendLista.Add(Rendelesitem.cikkSzam[i], Rendelesitem.mennyiseg[i]);
+                                }
+
+                                osszAr += RaktarItem.ar * Rendelesitem.mennyiseg[i];
+                            }
+
+                            else 
+                            {
+                                teljesitheto = false;
+                                int hiany = Rendelesitem.mennyiseg[i] - RaktarItem.mennyiseg;
+                                if (beszerzLista.ContainsKey(Rendelesitem.cikkSzam[i]))
+                                {
+                                    beszerzLista[Rendelesitem.cikkSzam[i]] += hiany;
+                                }
+
+                                else 
+                                {
+                                   beszerzLista.Add(Rendelesitem.cikkSzam[i], hiany);
+                                }
+                            }
+                        }
+                    }
                 }
 
-                Console.WriteLine("");
+                if (teljesitheto)
+                {
+                    Kiiras.Add($"{Rendelesitem.email};A rendelését két napon belül szállítjuk. A rendelés értéke: {osszAr} Ft");
+
+                    foreach (var item in RaktarLista) 
+                    {
+                        foreach (var dictionaryItem in rendLista) 
+                        {
+                            if (item.cikkSzam == dictionaryItem.Key) 
+                            {
+                                item.mennyiseg -= dictionaryItem.Value;
+                            }
+                        }
+                    }
+                }
+
+                else 
+                {
+                    Kiiras.Add($"{Rendelesitem.email};A rendelése függő állapotba került. Hamarosan értesítjük a szállítás időpontjáról.");
+                }
             }
 
-            Console.WriteLine();
-
-            foreach (var item in RaktarLista)
+            // levelek.csv kiírása
+            StreamWriter levelek = new StreamWriter("levelek.csv");
+            foreach (var item in Kiiras) 
             {
-
-                Console.WriteLine($"{item.cikkSzam} {item.nev} {item.ar} Ft {item.mennyiseg} db");
+                levelek.WriteLine(item);
             }
+            levelek.Close();
+
+
+            // beszerzes.csv kiírása
+            StreamWriter beszerzes = new StreamWriter("beszerzes.csv");
+            foreach (var item in beszerzLista)
+            {
+                beszerzes.WriteLine($"{item.Key};{item.Value}");
+            }
+
+            beszerzes.Close();
         }
     }
 }
