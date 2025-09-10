@@ -12,5 +12,4 @@
 + Dani/Berci - Egész
 
 ## [Rendelések](https://github.com/Zufhi/Tanulo-csoport-DDRAB/tree/Rendel%C3%A9sek)
-+ Ádám - Kód
-+ Dávid- Class + Beolvasás
++ Dávid/Ádám - Egész
