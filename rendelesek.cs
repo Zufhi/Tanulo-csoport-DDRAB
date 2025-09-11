@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Rendelések
 {
-    public class rendelesek
+    internal class rendelesek
     {
         public string datum { get; set; }
         public int rendelesSzam { get; set; }
@@ -25,3 +25,4 @@ namespace Rendelések
         }
     }
 }
+
