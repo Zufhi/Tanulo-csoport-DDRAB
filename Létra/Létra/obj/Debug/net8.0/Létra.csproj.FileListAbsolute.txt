@@ -1,0 +1,14 @@
+Z:\12. A\Asztalk\Létra\Létra\bin\Debug\net8.0\Létra.exe
+Z:\12. A\Asztalk\Létra\Létra\bin\Debug\net8.0\Létra.deps.json
+Z:\12. A\Asztalk\Létra\Létra\bin\Debug\net8.0\Létra.runtimeconfig.json
+Z:\12. A\Asztalk\Létra\Létra\bin\Debug\net8.0\Létra.dll
+Z:\12. A\Asztalk\Létra\Létra\bin\Debug\net8.0\Létra.pdb
+Z:\12. A\Asztalk\Létra\Létra\obj\Debug\net8.0\Létra.GeneratedMSBuildEditorConfig.editorconfig
+Z:\12. A\Asztalk\Létra\Létra\obj\Debug\net8.0\Létra.AssemblyInfoInputs.cache
+Z:\12. A\Asztalk\Létra\Létra\obj\Debug\net8.0\Létra.AssemblyInfo.cs
+Z:\12. A\Asztalk\Létra\Létra\obj\Debug\net8.0\Létra.csproj.CoreCompileInputs.cache
+Z:\12. A\Asztalk\Létra\Létra\obj\Debug\net8.0\Létra.dll
+Z:\12. A\Asztalk\Létra\Létra\obj\Debug\net8.0\refint\Létra.dll
+Z:\12. A\Asztalk\Létra\Létra\obj\Debug\net8.0\Létra.pdb
+Z:\12. A\Asztalk\Létra\Létra\obj\Debug\net8.0\Létra.genruntimeconfig.cache
+Z:\12. A\Asztalk\Létra\Létra\obj\Debug\net8.0\ref\Létra.dll

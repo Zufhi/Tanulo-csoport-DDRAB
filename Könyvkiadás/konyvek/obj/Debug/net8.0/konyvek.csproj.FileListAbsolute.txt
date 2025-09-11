@@ -1,0 +1,14 @@
+Z:\12. A\Asztalk\konyvek\konyvek\bin\Debug\net8.0\konyvek.exe
+Z:\12. A\Asztalk\konyvek\konyvek\bin\Debug\net8.0\konyvek.deps.json
+Z:\12. A\Asztalk\konyvek\konyvek\bin\Debug\net8.0\konyvek.runtimeconfig.json
+Z:\12. A\Asztalk\konyvek\konyvek\bin\Debug\net8.0\konyvek.dll
+Z:\12. A\Asztalk\konyvek\konyvek\bin\Debug\net8.0\konyvek.pdb
+Z:\12. A\Asztalk\konyvek\konyvek\obj\Debug\net8.0\konyvek.GeneratedMSBuildEditorConfig.editorconfig
+Z:\12. A\Asztalk\konyvek\konyvek\obj\Debug\net8.0\konyvek.AssemblyInfoInputs.cache
+Z:\12. A\Asztalk\konyvek\konyvek\obj\Debug\net8.0\konyvek.AssemblyInfo.cs
+Z:\12. A\Asztalk\konyvek\konyvek\obj\Debug\net8.0\konyvek.csproj.CoreCompileInputs.cache
+Z:\12. A\Asztalk\konyvek\konyvek\obj\Debug\net8.0\konyvek.dll
+Z:\12. A\Asztalk\konyvek\konyvek\obj\Debug\net8.0\refint\konyvek.dll
+Z:\12. A\Asztalk\konyvek\konyvek\obj\Debug\net8.0\konyvek.pdb
+Z:\12. A\Asztalk\konyvek\konyvek\obj\Debug\net8.0\konyvek.genruntimeconfig.cache
+Z:\12. A\Asztalk\konyvek\konyvek\obj\Debug\net8.0\ref\konyvek.dll
