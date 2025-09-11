@@ -1,0 +1,14 @@
+Z:\12. A\Asztalk\Rendelesek\Rendelesek\bin\Debug\net8.0\Rendelesek.exe
+Z:\12. A\Asztalk\Rendelesek\Rendelesek\bin\Debug\net8.0\Rendelesek.deps.json
+Z:\12. A\Asztalk\Rendelesek\Rendelesek\bin\Debug\net8.0\Rendelesek.runtimeconfig.json
+Z:\12. A\Asztalk\Rendelesek\Rendelesek\bin\Debug\net8.0\Rendelesek.dll
+Z:\12. A\Asztalk\Rendelesek\Rendelesek\bin\Debug\net8.0\Rendelesek.pdb
+Z:\12. A\Asztalk\Rendelesek\Rendelesek\obj\Debug\net8.0\Rendelesek.GeneratedMSBuildEditorConfig.editorconfig
+Z:\12. A\Asztalk\Rendelesek\Rendelesek\obj\Debug\net8.0\Rendelesek.AssemblyInfoInputs.cache
+Z:\12. A\Asztalk\Rendelesek\Rendelesek\obj\Debug\net8.0\Rendelesek.AssemblyInfo.cs
+Z:\12. A\Asztalk\Rendelesek\Rendelesek\obj\Debug\net8.0\Rendelesek.csproj.CoreCompileInputs.cache
+Z:\12. A\Asztalk\Rendelesek\Rendelesek\obj\Debug\net8.0\Rendelesek.dll
+Z:\12. A\Asztalk\Rendelesek\Rendelesek\obj\Debug\net8.0\refint\Rendelesek.dll
+Z:\12. A\Asztalk\Rendelesek\Rendelesek\obj\Debug\net8.0\Rendelesek.pdb
+Z:\12. A\Asztalk\Rendelesek\Rendelesek\obj\Debug\net8.0\Rendelesek.genruntimeconfig.cache
+Z:\12. A\Asztalk\Rendelesek\Rendelesek\obj\Debug\net8.0\ref\Rendelesek.dll

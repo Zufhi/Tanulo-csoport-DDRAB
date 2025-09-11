@@ -1,0 +1,14 @@
+Z:\12. A\Asztalk\RGB-Szinek\RGB-Szinek\bin\Debug\net8.0\RGB-Szinek.exe
+Z:\12. A\Asztalk\RGB-Szinek\RGB-Szinek\bin\Debug\net8.0\RGB-Szinek.deps.json
+Z:\12. A\Asztalk\RGB-Szinek\RGB-Szinek\bin\Debug\net8.0\RGB-Szinek.runtimeconfig.json
+Z:\12. A\Asztalk\RGB-Szinek\RGB-Szinek\bin\Debug\net8.0\RGB-Szinek.dll
+Z:\12. A\Asztalk\RGB-Szinek\RGB-Szinek\bin\Debug\net8.0\RGB-Szinek.pdb
+Z:\12. A\Asztalk\RGB-Szinek\RGB-Szinek\obj\Debug\net8.0\RGB-Szinek.GeneratedMSBuildEditorConfig.editorconfig
+Z:\12. A\Asztalk\RGB-Szinek\RGB-Szinek\obj\Debug\net8.0\RGB-Szinek.AssemblyInfoInputs.cache
+Z:\12. A\Asztalk\RGB-Szinek\RGB-Szinek\obj\Debug\net8.0\RGB-Szinek.AssemblyInfo.cs
+Z:\12. A\Asztalk\RGB-Szinek\RGB-Szinek\obj\Debug\net8.0\RGB-Szinek.csproj.CoreCompileInputs.cache
+Z:\12. A\Asztalk\RGB-Szinek\RGB-Szinek\obj\Debug\net8.0\RGB-Szinek.dll
+Z:\12. A\Asztalk\RGB-Szinek\RGB-Szinek\obj\Debug\net8.0\refint\RGB-Szinek.dll
+Z:\12. A\Asztalk\RGB-Szinek\RGB-Szinek\obj\Debug\net8.0\RGB-Szinek.pdb
+Z:\12. A\Asztalk\RGB-Szinek\RGB-Szinek\obj\Debug\net8.0\RGB-Szinek.genruntimeconfig.cache
+Z:\12. A\Asztalk\RGB-Szinek\RGB-Szinek\obj\Debug\net8.0\ref\RGB-Szinek.dll
