@@ -9,18 +9,22 @@ namespace kraterek
 {
     class Program
     {
+        //5. feladat
         static double tavolsag(double x1, double y1, double x2, double y2)
         {
             return Math.Sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1)); ;
         }
+        
         static void Main(string[] args)
         {
+            //1. feladat
             List<krater> Adatok = new List<krater>();
             foreach (var sor in File.ReadAllLines("felszin_tvesszo.txt")) 
             {
                 Adatok.Add(new krater(sor));
             }
 
+            //2. feladat
             Console.WriteLine("2. feladat");
             int darab = 0;
             foreach (var a in Adatok) 
@@ -29,7 +33,7 @@ namespace kraterek
             }
             Console.WriteLine("A kráterek száma: " + darab);
 
-
+            //3. feldat
             Console.WriteLine("3. feladat");
             Console.Write("Kérem egy kráter nevét: ");
             string input = Console.ReadLine();
@@ -41,6 +45,7 @@ namespace kraterek
                 }
             }
 
+            //4. feladat
             Console.WriteLine("4. feladat");
             double max = Adatok[0].sugar;
             string maxNev = Adatok[0].nev;
@@ -56,7 +61,7 @@ namespace kraterek
 
             Console.WriteLine($"A legnagyobb kráter neve és sugara: {maxNev} {max}");
 
-
+            //6. feladat
             Console.WriteLine("6. feladat");
             Console.Write("Kérem egy kráter nevét: ");
             string input2 = Console.ReadLine();
